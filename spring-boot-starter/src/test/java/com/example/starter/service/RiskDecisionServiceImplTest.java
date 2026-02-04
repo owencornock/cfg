@@ -91,14 +91,7 @@ class RiskDecisionServiceImplTest {
             assertThat(factors.getLoanToTurnoverPoints()).isGreaterThanOrEqualTo(0);
         }
 
-        // TODO: Add tests for scoring logic as you implement each calculation method.
-        //
-        // Examples of tests to add:
-        //   - Company less than 3 years old should score 40 points
-        //   - Company 3+ years old should score 0 points
-        //   - Annual turnover below 100k should score 30 points
-        //   - Youngest owner aged 18-21 should score 30 points
-        //   - Loan-to-turnover ratio above 20% should result in DECLINE
+        // TODO: Add tests for the scoring logic as you implement each calculation method.
     }
 
     private RiskDecisionRequest buildValidRequest() {
