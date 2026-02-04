@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: risk-decision-service-test
+
+logging:
+  level:
+    root: WARN
+    com.example.starter: DEBUG

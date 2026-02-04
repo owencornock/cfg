@@ -1,0 +1,12 @@
+# Local configuration overrides (copy to application-local.yml)
+# This file is gitignored so your local settings won't be committed.
+#
+# To use: cp application-local.yml.example src/main/resources/application-local.yml
+# Then activate the profile: ./gradlew bootRun --args='--spring.profiles.active=local'
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.example.starter: DEBUG
