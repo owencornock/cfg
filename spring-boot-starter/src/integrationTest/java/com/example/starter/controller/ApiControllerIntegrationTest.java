@@ -1,8 +1,6 @@
 package com.example.starter.controller;
 
 import com.example.starter.BaseIntegrationTest;
-import org.junit.jupiter.api.DisplayName;
-
 class ApiControllerIntegrationTest extends BaseIntegrationTest {
 
     // TODO: Write integration tests for the API.

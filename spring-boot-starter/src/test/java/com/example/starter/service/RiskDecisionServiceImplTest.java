@@ -2,7 +2,6 @@ package com.example.starter.service;
 
 import com.example.starter.dto.RiskDecisionRequest;
 import com.example.starter.dto.RiskDecisionResponse;
-import com.example.starter.model.RiskDecision;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
