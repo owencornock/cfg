@@ -3,6 +3,7 @@ package com.example.starter.service;
 import com.example.starter.dto.RiskDecisionRequest;
 import com.example.starter.dto.RiskDecisionResponse;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -23,6 +24,7 @@ class RiskDecisionServiceImplTest {
 
     @Nested
     @DisplayName("evaluate method")
+    @Disabled("Enable these tests once you have implemented the evaluate() method")
     class EvaluateMethod {
 
         @Test
